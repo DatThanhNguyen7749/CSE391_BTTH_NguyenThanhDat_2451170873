@@ -1,0 +1,76 @@
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: var(--color-light);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 40px;
+}
+
+
+nav{
+    display: flex;
+    gap: 30px;
+}
+
+nav a{
+    font-size: 1rem;
+    color: var(--color-text);
+    transition: color 0.3s ease;
+}
+
+.logo{
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--color-primary);
+}
+
+nav a:hover{
+    color: var(--color-primary);
+}
+
+#menu-toggle { display: none; }
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.hamburger span {
+    display: block;
+    width: 24px;
+    height: 2px;
+    background-color: var(--color-dark);
+}
+
+@media (max-width: 768px) {
+
+    /* header mobile */
+    header {
+        padding: 16px 20px;
+        flex-wrap: wrap;
+        position: relative;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    nav {
+        display: none;
+        width: 100%;
+        flex-direction: column;
+        gap: 16px;
+        padding: 20px 0 10px;
+    }
+
+    /* khi checkbox được check thì hiện nav */
+    #menu-toggle:checked ~ nav {
+        display: flex;
+    }
+}
