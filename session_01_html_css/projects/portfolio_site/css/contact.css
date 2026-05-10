@@ -1,0 +1,119 @@
+.contact-section {
+    padding: 80px 0;
+    background-color: var(--color-light);
+}
+
+.contact-section .section-title {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    margin-left: calc(35.7% + 40px);
+
+    color: var(--color-dark);
+}
+
+.contact-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1.8fr;
+    gap: 40px;
+    align-items: start;
+}
+
+.contact-info {
+    padding: 10px 0;
+}
+
+.contact-info h3 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--color-dark);
+    margin-bottom: 12px;
+}
+
+.contact-info > p {
+    font-size: 0.95rem;
+    color: var(--color-text);
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.info-item {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin-bottom: 16px;
+    font-size: 0.95rem;
+    color: var(--color-text);
+}
+
+.contact-form-card {
+    background-color: white;
+    border-radius: 16px;
+    padding: 40px 36px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: 500;
+    font-size: 0.95rem;
+    margin-bottom: 8px;
+    color: var(--color-dark);
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 12px 16px;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-family: var(--font-main);
+    color: var(--color-text);
+    background-color: white;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+    color: #94a3b8;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: var(--color-primary);
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1);
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 14px;
+    background-color: var(--color-primary);
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: var(--color-secondary);
+    transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+    .contact-wrapper {
+        grid-template-columns: 1fr;
+    }
+}
