@@ -5,7 +5,6 @@
     --bs-secondary: #64748b;
     --bs-secondary-rgb: 100, 116, 139;
 
-    /* custom thêm mấy cái Bootstrap không có sẵn */
     --custom-primary-hover: #0d9488;
     --custom-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
     --custom-shadow-sm: 0 2px 15px rgba(0, 0, 0, 0.05);
