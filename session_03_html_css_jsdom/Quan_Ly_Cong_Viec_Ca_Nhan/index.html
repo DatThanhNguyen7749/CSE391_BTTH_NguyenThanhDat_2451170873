@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quản Lý Công Việc</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Quản Lý Công Việc Cá Nhân</h1>
+
+        <div class="stats">
+            <div class="stat-item">
+                <span>Tổng công việc:</span>
+                <span id="tongCV">0</span>
+            </div>
+            <div class="stat-item completed">
+                <span>Hoàn thành:</span>
+                <span id="daXong">0</span>
+            </div>
+            <div class="stat-item pending">
+                <span>Chưa xong:</span>
+                <span id="chuaXong">0</span>
+            </div>
+        </div>
+
+        <div class="actions">
+            <button onclick="moForm()">+ Thêm Công Việc</button>
+        </div>
+
+        <div id="thongbao" class="notification"></div>
+
+        <div id="danhsach" class="task-list"></div>
+
+        <div id="popup" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 id="tieudeForm">Thêm Công Việc</h2>
+                    <button onclick="dongForm()">&times;</button>
+                </div>
+                <form onsubmit="luuCongViec(event)">
+                    <div class="form-group">
+                        <label>Tiêu đề:</label>
+                        <input type="text" id="tieuDe" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Mô tả:</label>
+                        <textarea id="moTa" rows="3"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label>Hạn hoàn thành:</label>
+                        <input type="date" id="hanChot" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Mức ưu tiên:</label>
+                        <select id="mucUuTien">
+                            <option value="low">Thấp</option>
+                            <option value="medium">Trung bình</option>
+                            <option value="high">Cao</option>
+                        </select>
+                    </div>
+                    <div class="form-actions">
+                        <button type="submit">Lưu</button>
+                        <button type="button" onclick="dongForm()">Hủy</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
