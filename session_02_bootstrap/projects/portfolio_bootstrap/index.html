@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyPortfolio — Nguyễn Thành Đạt</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/custom-theme.css">
+</head>
+<body>
+
+<!-- ===== NAVBAR ===== -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+    <div class="container">
+        <a class="navbar-brand fw-bold text-primary" href="#">MyPortfolio</a>
+
+        <!-- Hamburger button -->
+        <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Nav links -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- ===== HERO ===== -->
+<section class="min-vh-100 d-flex align-items-center justify-content-center text-center text-white"
+         style="background: linear-gradient(135deg, #14b8a6 0%, #0d9488 100%);">
+    <div class="container">
+        <h1 class="display-2 fw-bold mb-3">
+            Hi, I'm <span style="color: #ccfbf1;">Nguyễn Thành Đạt</span>
+        </h1>
+        <p class="lead mb-4 opacity-75">Front-End Developer | Bootstrap Enjoyer | Still Learning 😅</p>
+        <a href="#portfolio" class="btn btn-light btn-lg px-5 py-3 fw-semibold">
+            View My Work →
+        </a>
+    </div>
+</section>
+
+<!-- ===== ABOUT ===== -->
+<section id="about" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-5 fw-bold">About Me</h2>
+        <div class="row align-items-center g-5">
+            <div class="col-lg-5 text-center">
+                <div class="rounded-circle mx-auto d-flex align-items-center justify-content-center text-white fw-bold"
+                     style="width:200px; height:200px; background: linear-gradient(135deg, #14b8a6, #0d9488); font-size: 4rem;">
+                    NVA
+                </div>
+            </div>
+            <div class="col-lg-7">
+                <p class="lead">Mình là developer đang học năm 2, mới phát hiện Bootstrap và không thể ngừng dùng nó.</p>
+                <p class="text-muted">Chuyên về copy-paste từ Stack Overflow và cầu nguyện nó chạy được. Đang làm bài tập Session 2.</p>
+                <div class="d-flex gap-3 mt-4">
+                    <a href="#" class="btn btn-primary">
+                        <i class="bi bi-github me-2"></i>GitHub
+                    </a>
+                    <a href="#" class="btn btn-outline-primary">
+                        <i class="bi bi-linkedin me-2"></i>LinkedIn
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== SKILLS ===== -->
+<section id="skills" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center mb-5 fw-bold">My Skills</h2>
+        <div class="row g-4">
+            <div class="col-md-6">
+                <div class="mb-4">
+                    <div class="d-flex justify-content-between mb-1">
+                        <span class="fw-semibold">HTML5</span>
+                        <span class="fw-semibold text-primary">90%</span>
+                    </div>
+                    <div class="progress" style="height: 12px; border-radius: 8px;">
+                        <div class="progress-bar" style="width: 90%"></div>
+                    </div>
+                </div>
+                <div class="mb-4">
+                    <div class="d-flex justify-content-between mb-1">
+                        <span class="fw-semibold">CSS3</span>
+                        <span class="fw-semibold text-primary">80%</span>
+                    </div>
+                    <div class="progress" style="height: 12px; border-radius: 8px;">
+                        <div class="progress-bar" style="width: 80%"></div>
+                    </div>
+                </div>
+                <div class="mb-4">
+                    <div class="d-flex justify-content-between mb-1">
+                        <span class="fw-semibold">Bootstrap 5</span>
+                        <span class="fw-semibold text-primary">70%</span>
+                    </div>
+                    <div class="progress" style="height: 12px; border-radius: 8px;">
+                        <div class="progress-bar" style="width: 70%"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="mb-4">
+                    <div class="d-flex justify-content-between mb-1">
+                        <span class="fw-semibold">JavaScript</span>
+                        <span class="fw-semibold text-primary">50%</span>
+                    </div>
+                    <div class="progress" style="height: 12px; border-radius: 8px;">
+                        <div class="progress-bar" style="width: 50%"></div>
+                    </div>
+                </div>
+                <div class="mb-4">
+                    <div class="d-flex justify-content-between mb-1">
+                        <span class="fw-semibold">Git / GitHub</span>
+                        <span class="fw-semibold text-primary">60%</span>
+                    </div>
+                    <div class="progress" style="height: 12px; border-radius: 8px;">
+                        <div class="progress-bar" style="width: 60%"></div>
+                    </div>
+                </div>
+                <div class="mb-4">
+                    <div class="d-flex justify-content-between mb-1">
+                        <span class="fw-semibold">React (đang học)</span>
+                        <span class="fw-semibold text-primary">20%</span>
+                    </div>
+                    <div class="progress" style="height: 12px; border-radius: 8px;">
+                        <div class="progress-bar" style="width: 20%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== PORTFOLIO GRID ===== -->
+<section id="portfolio" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-5 fw-bold">Portfolio</h2>
+        <div class="row g-4">
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card h-100">
+                    <div class="card-img-top d-flex align-items-center justify-content-center text-white fw-bold"
+                         style="height:160px; background: linear-gradient(135deg,#14b8a6,#0d9488);">
+                        <i class="bi bi-cart3 me-2" style="font-size:1.5rem;"></i> E-Commerce
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">E-Commerce App</h5>
+                        <p class="card-text text-muted">React + Node.js + MongoDB</p>
+                        <p class="card-text small">Website bán hàng online, có cart, checkout và payment.</p>
+                    </div>
+                    <div class="card-footer bg-white border-0 pb-3">
+                        <a href="#" class="btn btn-sm btn-outline-primary">
+                            <i class="bi bi-github me-1"></i>GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card h-100">
+                    <div class="card-img-top d-flex align-items-center justify-content-center text-white fw-bold"
+                         style="height:160px; background: linear-gradient(135deg,#667eea,#764ba2);">
+                        <i class="bi bi-person-badge me-2" style="font-size:1.5rem;"></i> Portfolio v1
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Portfolio Website</h5>
+                        <p class="card-text text-muted">HTML + CSS thuần</p>
+                        <p class="card-text small">Project đầu tiên từ Session 1, code còn hơi xấu.</p>
+                    </div>
+                    <div class="card-footer bg-white border-0 pb-3">
+                        <a href="#" class="btn btn-sm btn-outline-primary">
+                            <i class="bi bi-github me-1"></i>GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card h-100">
+                    <div class="card-img-top d-flex align-items-center justify-content-center text-white fw-bold"
+                         style="height:160px; background: linear-gradient(135deg,#f093fb,#f5576c);">
+                        <i class="bi bi-check2-square me-2" style="font-size:1.5rem;"></i> Todo App
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Todo List App</h5>
+                        <p class="card-text text-muted">Vanilla JavaScript</p>
+                        <p class="card-text small">Ứng dụng todo, dùng localStorage lưu data.</p>
+                    </div>
+                    <div class="card-footer bg-white border-0 pb-3">
+                        <a href="#" class="btn btn-sm btn-outline-primary">
+                            <i class="bi bi-github me-1"></i>GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- ===== CONTACT ===== -->
+<section id="contact" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center mb-5 fw-bold">Contact Me</h2>
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <div class="card">
+                    <div class="card-body p-4">
+                        <form>
+                            <div class="mb-3">
+                                <label class="form-label">Name</label>
+                                <input type="text" class="form-control" placeholder="Tên bạn">
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Email</label>
+                                <input type="email" class="form-control" placeholder="email@example.com">
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Message</label>
+                                <textarea class="form-control" rows="4" placeholder="Nhắn gì đó..."></textarea>
+                            </div>
+                            <div class="d-grid">
+                                <button type="submit" class="btn btn-primary btn-lg">
+                                    Send Message <i class="bi bi-send ms-2"></i>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="py-4 text-center text-muted" style="background: #f8fafc; border-top: 1px solid #e2e8f0;">
+    <p class="mb-0">© 2026 Nguyen Thanh Dat — Made with ❤️ + Bootstrap 5 (và khá nhiều lần Google)</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
