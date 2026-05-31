@@ -1,0 +1,42 @@
+[
+    {
+        "msv": "SV001",
+        "hoTen": "Nguyễn Văn An",
+        "ngaySinh": "2006-08-10",
+        "lop": "66KTPM2",
+        "diem": 8.5,
+        "email": "an@gmail.com"
+    },
+    {
+        "msv": "SV002",
+        "hoTen": "Trần Thị Bình",
+        "ngaySinh": "2006-05-20",
+        "lop": "66KTPM2",
+        "diem": 7.2,
+        "email": "binh@gmail.com"
+    },
+    {
+        "msv": "SV003",
+        "hoTen": "Lê Văn Cường",
+        "ngaySinh": "2006-12-01",
+        "lop": "66KTPM1",
+        "diem": 9.0,
+        "email": "cuong@gmail.com"
+    },
+    {
+        "msv": "SV004",
+        "hoTen": "Phạm Thị Dung",
+        "ngaySinh": "2006-03-15",
+        "lop": "66KTPM1",
+        "diem": 6.8,
+        "email": "dung@gmail.com"
+    },
+    {
+        "msv": "SV005",
+        "hoTen": "Hoàng Minh Đức",
+        "ngaySinh": "2006-07-22",
+        "lop": "66KTPM3",
+        "diem": 7.9,
+        "email": "duc@gmail.com"
+    }
+]
